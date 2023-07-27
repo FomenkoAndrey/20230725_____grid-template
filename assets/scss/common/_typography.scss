@@ -3,6 +3,8 @@
 }
 
 html {
+  overflow-y: scroll;
+
   font-family: $font-main;
   font-size: $font-size;
 }
@@ -13,13 +15,16 @@ body {
 }
 
 h1 {
+  letter-spacing: 0.078em;
+
   font-family: $font-header;
   font-size: 3.75rem;
-  letter-spacing: 0.12em; // 5 від 60 ?
   font-weight: 300;
+  line-height: 1.2em;
 }
 
 a {
   text-decoration: none;
+
   color: $color-white;
 }
